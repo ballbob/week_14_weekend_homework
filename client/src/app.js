@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import FaceContainer from './Containers/FaceContainer'
 
 window.onload = function(){
   ReactDOM.render(
-    <h1> App Started </h1>,
+    <FaceContainer/>,
     document.getElementById('app')
   );
 }
