@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import FaceContainer from './Containers/FaceContainer'
+import FaceContainer from './containers/FaceContainer'
 
 window.onload = function(){
   ReactDOM.render(
