@@ -1,9 +1,16 @@
 import React from 'react'
 
 class Face extends React.Component{
+  constructor(props){
+    super(props)
+  }
+
   render(){
     return(
-      <p>Face.</p>
+      <div id="face">
+        <img src={this.props.img} width="200"/>
+        {this.props.name}
+      </div>
     )
   }
 }

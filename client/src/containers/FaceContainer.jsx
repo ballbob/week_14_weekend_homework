@@ -7,7 +7,13 @@ class FaceContainer extends React.Component{
     return(
       <div id="face-container">
         <div id="faces">
-          <Face/>
+          <Face name="Alice" img="alice.png"/>
+          <Face name="Bob" img="bob.png"/>
+          <Face name="Colin" img="colin.png"/>
+          <Face name="Ewen" img="ewen.png"/>
+          <Face name="Josef" img="josef.png"/>
+          <Face name="Simon" img="simon.png"/>
+          <Face name="Suzanne" img="suzanne.png"/>
         </div>
 
         <div id="questions">
