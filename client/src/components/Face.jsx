@@ -3,6 +3,11 @@ import React from 'react'
 class Face extends React.Component{
   constructor(props){
     super(props)
+    this.inPlay = true
+  }
+
+  notInPlay(){
+    this.inPlay = false
   }
 
   render(){
